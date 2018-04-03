@@ -1,6 +1,6 @@
 {
   "name": "browser-device-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "browser-device-js 是一个轻量级获取浏览器和手机信息的库",
   "main": "./lib/device.js",
   "scripts": {

@@ -6,7 +6,7 @@ export default class DeviceIos {
                 1136: ["iPhone 5", "iPhone 5s"],
                 2048: ["iPad Air", "iPad Mini 2", "iPad Mini 3"]
             },
-            
+
             "Apple A8 GPU": {
                 1136: ["iPod touch (6th generation)"],
                 1334: ["iPhone 6"],
@@ -39,7 +39,7 @@ export default class DeviceIos {
             let canvas = document.createElement('canvas');
             let gl = canvas.getContext('experimental-webgl');
             let info = gl.getExtension('WEBGL_debug_renderer_info');
-            let glRenderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+            let glRenderer = gl.getParameter(info.UNMASKED_RENDERER_WEBGL);
             return glRenderer
         } catch (e) {
             return ''
