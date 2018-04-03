@@ -33,11 +33,7 @@ browser-device-js 是一个轻量级获取浏览器和手机信息的库
 ```js
 
     import Device from "browser-device-js"
-
-```
-
-```js
-var d = new Device()
+    var d = new Device()
     d.getDevice() //获取所有信息
     /**
     {
