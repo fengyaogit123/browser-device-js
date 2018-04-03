@@ -1,8 +1,8 @@
 {
   "name": "browser-device-js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./src/index.js",
+  "version": "1.0.2",
+  "description": "browser-device-js 是一个轻量级获取浏览器和手机信息的库",
+  "main": "./lib/device.js",
   "scripts": {
     "test": "",
     "build": "webpack --config webpack.config.js --colors",
@@ -14,7 +14,8 @@
   },
   "keywords": [
     "device",
-    "browser"
+    "browser",
+    "browser-device-js"
   ],
   "author": "1724238345@qq.com",
   "license": "ISC",
