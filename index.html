@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./lib/device.js"></script>
+    <script>
+        var d = new Device()
+        console.log(d.getDevice()) //获取所有信息
+        /**
+        {
+            browserVer: "",//浏览器版本
+            browserName: "",//浏览器名称 Edge IE11  IE Opera Firefox WeiXin QQ UC Safari
+            phoneSystemType: "",//手机系统类型 android / ios
+            phoneSystemVer: "",//手机系统版本  android 4.1 / ios 6
+            phoneName: "",//iPhone 8 /iPhone X    Android  
+        }
+
+        **/
+        console.log(d.getAndroidV())//获取android版本
+        
+        console.log(d.getIOSV())// 获取ios版本
+
+        console.log(d.getPhoneSystemType())//获取 系统类型 ios /android  /Windows Phone
+
+        console.log(d.isPC())//是否PC
+
+        console.log(d.isMobile())//是否手机
+
+        console.log(d.getBrowser())//获取浏览器名称 Edge IE11  IE Opera Firefox WeiXin QQ UC Safari
+    </script>
+</body>
+</html>

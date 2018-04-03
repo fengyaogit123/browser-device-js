@@ -1,12 +1,11 @@
-# browser-device-js
 # 介绍
 
 browser-device-js 是一个轻量级获取浏览器和手机信息的库
 # 优点
 
-1. 能够获取众多ios的机型，包括iponeX
+1. 能够获取众多ios的机型，包括iphoneX
     
-2. 支持浏览器和Node环境
+2. 支持amd 
 
 3. 区分 Edge IE11  IE11以下 Opera Firefox 微信内置浏览器 QQ浏览器 UC浏览器 Safari
 
@@ -17,11 +16,6 @@ browser-device-js 是一个轻量级获取浏览器和手机信息的库
 通过以下方式都可以下载：
 
 执行`npm i browser-device-js`
-
-接着在页面中引入
-```html
-<script src="./lib/device.js"></script>
-```
 
 # 如何使用
 
@@ -34,26 +28,13 @@ browser-device-js 是一个轻量级获取浏览器和手机信息的库
 
 
 ```
-### 模块化引入:
+### 模块引入:
 
 ```js
 
     import Device from "browser-device-js"
 
 ```
-### Node引入
-
-```js
-
-    const Device = requre('browser-device-js')
-
-    new Device('Mozilla/5.0 (Windows NT 10.0; WOW64...')
-
-    ....
-    ....
-
-```
-
 
 ```js
 var d = new Device()
@@ -82,6 +63,6 @@ var d = new Device()
 ```
 
 
-# 参考
+# 参考链接
 
     https://github.com/joyqi/mobile-device-js
