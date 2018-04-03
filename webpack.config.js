@@ -20,7 +20,7 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
-        openPage: "./index.html",
+        openPage: "./example/index.html",
         inline: true
 
     },
